@@ -26,32 +26,26 @@ def mostrar_chute(numeros_chute)
 end
 
 
-def pontos_perdidos(numero_secreto, numero)
-    pontos = 1000
-    pontos_perdidos = (numero - numero_secreto).abs/2
-    if pontos < 0
-       pontos *= -1
-    end
-end
-
 if numero == numero_secreto
     puts "O número secreto é: #{numero_secreto}"
     puts "Parabéns. Você acertou\u{1F973}"
-    puts "Você ganhou #{pontos_perdidos(numero, numero_secreto)} pontos"
+    puts "Você ganhou #{pontos} pontos"
     break
 elsif (numero != numero_secreto and qtde_tentativas != 1)
     puts "Infelizmente...Você errou\u{1F622}"
      qtde_tentativas = qtde_tentativas - 1
     puts "Tentativa: #{qtde_tentativas}/5"
     puts "Números chutados até agora: #{mostrar_chute(numeros_chute)}"
-    puts "Você tem #{pontos_perdidos(numero, numero_secreto)} pontos"
+    pontos-=200
+    puts "Você tem #{pontos} pontos"
     puts "Escolha um número: "
     numero = gets.chomp.to_i
     numeros_chute << numero
 else
     puts "O número secreto era: #{numero_secreto}"
     puts "Números chutados até agora: #{mostrar_chute(numeros_chute)}"
-    puts "Você tem #{pontos_perdidos(numero, numero_secreto)} pontos"
+    pontos-=200
+    puts "Você terminou #{pontos} pontos"
     puts "Suas tentativas acabaram! Mais sorte na próxima vez!"
 end
 end
