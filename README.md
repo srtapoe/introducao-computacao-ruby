@@ -11,3 +11,7 @@ assim revisando conceitos para a disciplina de Estrutura de Dados que verei ness
 -  [ ] 🥈 [Jogo da Forca](https://github.com/SrtaPoe/introducao-computacao-ruby)
 -  [ ] 🥉 [Estilo Pacman](https://github.com/SrtaPoe/introducao-computacao-ruby)
 -  [X] 🥇 [Conversor de Base](https://github.com/SrtaPoe/introducao-computacao-ruby/blob/main/binario_conversao.rb)
+- [X] 🥇 [Números pares 2 a 50]()
+- [X] 🥈 [Somar intervalo de 1 a 100]()
+- [X] 🥉 [Calculadora de um número]()
+- [X] 🥇 [Fatorial]()
