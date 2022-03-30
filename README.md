@@ -15,7 +15,7 @@
 - [X] 🥈 [Calculadora de um número](https://github.com/srtapoe/introducao-computacao-ruby/blob/main/desafios-extras/calculadora.rb)
 - [X] 🥉 [Fatorial](https://github.com/srtapoe/introducao-computacao-ruby/blob/main/desafios-extras/fatorial.rb)
 - [X] 🥇 [Caixa Eletrônico](https://github.com/srtapoe/introducao-computacao-ruby/blob/main/desafios-extras/caixa_eletronico.rb)
-- [X] 🥈 [Trocar valores em 2 linhas]() - aprendi a fazer isso com o material do Rodrigo Martins
+- [X] 🥈 [Trocar valores em 2 linhas](https://github.com/srtapoe/introducao-computacao-ruby/blob/main/diversos-basic/desafio1.rb) - aprendi a fazer isso com o material do Rodrigo Martins
 
 ### Aplicando refatoração conforme vou aprendendo novos métodos:
 
@@ -26,3 +26,13 @@
 ### Material consultado para entender melhor métodos ou resolver algum desafio:
 
 :bulb: [Atribuição Paralela - por Robrigo Martins](http://rrmartins.herokuapp.com/blog/2012/06/11/atribuicao-paralela-number-ruby/)
+
+
+### Métodos que facilitam a vida com Ruby(que já é simples):
+
+:bulb: - upto --> usado para forma crescente de um intervalo
+
+:bulb: - downto --> usado para forma descrente de um intervalo
+
+
+:bulb: - step --> usado para pular um determinado intervalo
